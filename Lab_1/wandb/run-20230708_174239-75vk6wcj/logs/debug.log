@@ -1,0 +1,234 @@
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Configure stats pid to 19852
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/.config/wandb/settings
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/Desktop/Lab_DLA/Lab_1/wandb/settings
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-08 17:42:39,897 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:_log_setup():507] Logging user logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174239-75vk6wcj/logs/debug.log
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:_log_setup():508] Logging internal logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174239-75vk6wcj/logs/debug-internal.log
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdda1504cd0>
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:init():547] calling init triggers
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 128, 'learning_rate': 0.0001, 'architecture': 'MLP', 'depth': 2}
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:init():596] starting backend
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [wandb_init.py:init():600] setting up manager
+2023-07-08 17:42:39,898 INFO    MainThread:19852 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-08 17:42:39,899 INFO    MainThread:19852 [wandb_init.py:init():606] backend started and connected
+2023-07-08 17:42:39,899 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-08 17:42:39,899 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-08 17:42:39,899 INFO    MainThread:19852 [wandb_init.py:init():705] updated telemetry
+2023-07-08 17:42:39,901 INFO    MainThread:19852 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-08 17:42:40,344 INFO    MainThread:19852 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-08 17:43:10,347 INFO    MainThread:19852 [wandb_init.py:init():789] starting run threads in backend
+2023-07-08 17:43:16,680 WARNING MainThread:19852 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 800, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Configure stats pid to 19852
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/.config/wandb/settings
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/Desktop/Lab_DLA/Lab_1/wandb/settings
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:_log_setup():507] Logging user logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174318-otpi5u5p/logs/debug.log
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:_log_setup():508] Logging internal logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174318-otpi5u5p/logs/debug-internal.log
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:init():547] calling init triggers
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 128, 'learning_rate': 0.0001, 'architecture': 'MLP', 'depth': 2}
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:init():596] starting backend
+2023-07-08 17:43:18,170 INFO    MainThread:19852 [wandb_init.py:init():600] setting up manager
+2023-07-08 17:43:18,171 INFO    MainThread:19852 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-08 17:43:18,171 INFO    MainThread:19852 [wandb_init.py:init():606] backend started and connected
+2023-07-08 17:43:18,172 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-08 17:43:18,172 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-08 17:43:18,172 INFO    MainThread:19852 [wandb_init.py:init():705] updated telemetry
+2023-07-08 17:43:18,174 INFO    MainThread:19852 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-08 17:43:18,620 INFO    MainThread:19852 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-08 17:43:26,382 WARNING MainThread:19852 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run._on_init()
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2177, in _on_init
+    version_result = version_handle.wait(timeout=30)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Configure stats pid to 19852
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/.config/wandb/settings
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/Desktop/Lab_DLA/Lab_1/wandb/settings
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:_log_setup():507] Logging user logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174340-i3futfqq/logs/debug.log
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:_log_setup():508] Logging internal logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174340-i3futfqq/logs/debug-internal.log
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:init():547] calling init triggers
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 128, 'learning_rate': 0.0001, 'architecture': 'MLP', 'depth': 2}
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:init():596] starting backend
+2023-07-08 17:43:40,837 INFO    MainThread:19852 [wandb_init.py:init():600] setting up manager
+2023-07-08 17:43:40,838 INFO    MainThread:19852 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-08 17:43:40,838 INFO    MainThread:19852 [wandb_init.py:init():606] backend started and connected
+2023-07-08 17:43:40,839 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-08 17:43:40,839 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-08 17:43:40,839 INFO    MainThread:19852 [wandb_init.py:init():705] updated telemetry
+2023-07-08 17:43:40,840 INFO    MainThread:19852 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-08 17:43:41,241 INFO    MainThread:19852 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-08 17:44:09,261 WARNING MainThread:19852 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run._on_init()
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2177, in _on_init
+    version_result = version_handle.wait(timeout=30)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Configure stats pid to 19852
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/.config/wandb/settings
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/Desktop/Lab_DLA/Lab_1/wandb/settings
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:_log_setup():507] Logging user logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174429-94rs3pb4/logs/debug.log
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:_log_setup():508] Logging internal logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174429-94rs3pb4/logs/debug-internal.log
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:init():547] calling init triggers
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 128, 'learning_rate': 0.0001, 'architecture': 'MLP', 'depth': 2}
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:init():596] starting backend
+2023-07-08 17:44:29,309 INFO    MainThread:19852 [wandb_init.py:init():600] setting up manager
+2023-07-08 17:44:29,310 INFO    MainThread:19852 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-08 17:44:29,310 INFO    MainThread:19852 [wandb_init.py:init():606] backend started and connected
+2023-07-08 17:44:29,310 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-08 17:44:29,310 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-08 17:44:29,310 INFO    MainThread:19852 [wandb_init.py:init():705] updated telemetry
+2023-07-08 17:44:29,312 INFO    MainThread:19852 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-08 17:45:26,381 WARNING MainThread:19852 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 741, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Configure stats pid to 19852
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/.config/wandb/settings
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from /home/magro/Desktop/Lab_DLA/Lab_1/wandb/settings
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:_log_setup():507] Logging user logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174527-p796w91y/logs/debug.log
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:_log_setup():508] Logging internal logs to /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174527-p796w91y/logs/debug-internal.log
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:init():547] calling init triggers
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 128, 'learning_rate': 0.0001, 'architecture': 'MLP', 'depth': 2}
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:init():596] starting backend
+2023-07-08 17:45:27,687 INFO    MainThread:19852 [wandb_init.py:init():600] setting up manager
+2023-07-08 17:45:27,688 INFO    MainThread:19852 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-07-08 17:45:27,688 INFO    MainThread:19852 [wandb_init.py:init():606] backend started and connected
+2023-07-08 17:45:27,688 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-08 17:45:27,689 INFO    MainThread:19852 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-08 17:45:27,689 INFO    MainThread:19852 [wandb_init.py:init():705] updated telemetry
+2023-07-08 17:45:27,690 INFO    MainThread:19852 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-08 17:45:55,370 WARNING MainThread:19852 [wandb_init.py:init():1176] interrupted
+Traceback (most recent call last):
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1154, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 741, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/magro/miniconda3/envs/lab_env/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

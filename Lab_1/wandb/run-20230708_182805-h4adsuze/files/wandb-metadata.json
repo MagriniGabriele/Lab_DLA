@@ -1,0 +1,164 @@
+{
+    "os": "Linux-5.19.0-46-generic-x86_64-with-glibc2.35",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-07-08T16:28:05.705671",
+    "startedAt": "2023-07-08T16:28:05.146507",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/MagriniGabriele/Lab_DLA.git",
+        "commit": "0fc2a189d95790551a28ffe45fe35ed1d3ce4496"
+    },
+    "email": "magrinigab@gmail.com",
+    "root": "/home/magro/Desktop/Lab_DLA",
+    "host": "Hyrule",
+    "username": "magro",
+    "executable": "/home/magro/miniconda3/envs/lab_env/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 4.548041666666667,
+        "min": 800.0,
+        "max": 4950.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.319,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.299,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5.285,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 5400.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 5.3,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4.186,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.191,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.19,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.191,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.192,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 4.2,
+            "min": 800.0,
+            "max": 4200.0
+        },
+        {
+            "current": 3.4,
+            "min": 800.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "total": 915.3232879638672,
+        "used": 50.97747039794922
+    },
+    "gpu": "NVIDIA Graphics Device",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA Graphics Device",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 31.153095245361328
+    }
+}

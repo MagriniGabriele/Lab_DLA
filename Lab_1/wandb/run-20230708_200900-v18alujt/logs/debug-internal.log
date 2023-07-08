@@ -1,0 +1,239 @@
+2023-07-08 20:09:09,058 INFO    StreamThr :67707 [internal.py:wandb_internal():86] W&B internal server running at pid: 67707, started at: 2023-07-08 20:09:09.058405
+2023-07-08 20:09:09,058 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status
+2023-07-08 20:09:09,060 INFO    WriterThread:67707 [datastore.py:open_for_write():85] open: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/run-v18alujt.wandb
+2023-07-08 20:09:09,060 DEBUG   SenderThread:67707 [sender.py:send():369] send: header
+2023-07-08 20:09:09,063 DEBUG   SenderThread:67707 [sender.py:send():369] send: run
+2023-07-08 20:09:09,506 INFO    SenderThread:67707 [dir_watcher.py:__init__():211] watching files in: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files
+2023-07-08 20:09:09,506 INFO    SenderThread:67707 [sender.py:_start_run_threads():1100] run started: v18alujt with start time 1688839749.058235
+2023-07-08 20:09:09,507 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 20:09:09,507 INFO    SenderThread:67707 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 20:09:09,508 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: check_version
+2023-07-08 20:09:09,508 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: check_version
+2023-07-08 20:09:10,507 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-summary.json
+2023-07-08 20:09:10,650 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: run_start
+2023-07-08 20:09:10,650 DEBUG   HandlerThread:67707 [system_info.py:__init__():31] System info init
+2023-07-08 20:09:10,650 DEBUG   HandlerThread:67707 [system_info.py:__init__():46] System info init done
+2023-07-08 20:09:10,650 INFO    HandlerThread:67707 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 20:09:10,650 INFO    SystemMonitor:67707 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 20:09:10,650 INFO    HandlerThread:67707 [system_monitor.py:probe():201] Collecting system info
+2023-07-08 20:09:10,651 INFO    SystemMonitor:67707 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 20:09:10,651 INFO    SystemMonitor:67707 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 20:09:10,651 INFO    SystemMonitor:67707 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 20:09:10,651 INFO    SystemMonitor:67707 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 20:09:10,651 INFO    SystemMonitor:67707 [interfaces.py:start():190] Started network monitoring
+2023-07-08 20:09:10,656 DEBUG   HandlerThread:67707 [system_info.py:probe():195] Probing system
+2023-07-08 20:09:10,656 DEBUG   HandlerThread:67707 [system_info.py:_probe_git():180] Probing git
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_info.py:_probe_git():188] Probing git done
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_info.py:probe():240] Probing system done
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.11.4', 'heartbeatAt': '2023-07-08T18:09:10.656331', 'startedAt': '2023-07-08T18:09:00.908317', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/MagriniGabriele/Lab_DLA.git', 'commit': '0fc2a189d95790551a28ffe45fe35ed1d3ce4496'}, 'email': 'magrinigab@gmail.com', 'root': '/home/magro/Desktop/Lab_DLA', 'host': 'Hyrule', 'username': 'magro', 'executable': '/home/magro/miniconda3/envs/lab_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 1.823958333333333, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 2.791, 'min': 800.0, 'max': 5300.0}, {'current': 1.1, 'min': 800.0, 'max': 5300.0}, {'current': 3.165, 'min': 800.0, 'max': 5300.0}, {'current': 1.1, 'min': 800.0, 'max': 5300.0}, {'current': 2.849, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 3.911, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 3.421, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 3.57, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 3.813, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 3.047, 'min': 800.0, 'max': 5300.0}, {'current': 1.129, 'min': 800.0, 'max': 5300.0}, {'current': 2.298, 'min': 800.0, 'max': 4200.0}, {'current': 2.787, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 1.919, 'min': 800.0, 'max': 4200.0}, {'current': 0.8, 'min': 800.0, 'max': 4200.0}, {'current': 4.196, 'min': 800.0, 'max': 4200.0}, {'current': 0.838, 'min': 800.0, 'max': 4200.0}, {'current': 0.907, 'min': 800.0, 'max': 4200.0}], 'disk': {'total': 915.3232879638672, 'used': 50.98048400878906}, 'gpu': 'NVIDIA Graphics Device', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA Graphics Device', 'memory_total': 12878610432}], 'memory': {'total': 31.153095245361328}}
+2023-07-08 20:09:10,658 INFO    HandlerThread:67707 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-08 20:09:10,658 INFO    HandlerThread:67707 [system_monitor.py:probe():214] Publishing system info
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-08 20:09:10,658 DEBUG   HandlerThread:67707 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-08 20:09:11,506 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/conda-environment.yaml
+2023-07-08 20:09:11,506 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/requirements.txt
+2023-07-08 20:09:11,647 DEBUG   HandlerThread:67707 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-08 20:09:11,648 INFO    HandlerThread:67707 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-08 20:09:11,648 DEBUG   SenderThread:67707 [sender.py:send():369] send: files
+2023-07-08 20:09:11,648 INFO    SenderThread:67707 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-08 20:09:11,652 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:09:11,652 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:09:11,870 DEBUG   SenderThread:67707 [sender.py:send():369] send: telemetry
+2023-07-08 20:09:12,281 INFO    wandb-upload_0:67707 [upload_job.py:push():133] Uploaded file /tmp/tmp6fdly8z8wandb/ld781dme-wandb-metadata.json
+2023-07-08 20:09:12,506 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/conda-environment.yaml
+2023-07-08 20:09:12,507 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:12,507 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-metadata.json
+2023-07-08 20:09:14,095 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:14,507 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:16,507 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:18,508 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:19,104 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:20,508 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:22,508 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:24,225 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:24,509 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:26,509 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:26,652 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:09:26,652 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:09:28,510 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:29,311 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:30,510 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:32,510 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:34,406 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:34,511 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:36,511 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:38,512 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:39,414 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:40,512 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:40,512 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/config.yaml
+2023-07-08 20:09:41,652 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:09:41,652 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:09:42,512 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:44,513 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:44,668 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:46,513 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:48,513 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:49,776 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:50,514 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:52,514 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:54,515 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:54,879 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:09:56,515 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:56,652 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:09:56,652 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:09:58,515 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:09:59,948 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:00,516 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:02,516 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:04,517 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:05,026 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:06,517 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:08,517 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:10,162 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:10,518 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:10,652 DEBUG   SystemMonitor:67707 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 20:10:10,652 DEBUG   SenderThread:67707 [sender.py:send():369] send: stats
+2023-07-08 20:10:11,652 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:10:11,652 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:10:12,518 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:14,519 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:15,301 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:16,519 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:18,521 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:20,723 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:25,724 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:26,654 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 20:10:26,655 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 20:10:30,820 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:35,408 DEBUG   SenderThread:67707 [sender.py:send():369] send: telemetry
+2023-07-08 20:10:35,450 DEBUG   SenderThread:67707 [sender.py:send():369] send: exit
+2023-07-08 20:10:35,450 INFO    SenderThread:67707 [sender.py:send_exit():574] handling exit code: 0
+2023-07-08 20:10:35,450 INFO    SenderThread:67707 [sender.py:send_exit():576] handling runtime: 84
+2023-07-08 20:10:35,451 INFO    SenderThread:67707 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 20:10:35,451 INFO    SenderThread:67707 [sender.py:send_exit():582] send defer
+2023-07-08 20:10:35,451 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,451 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-08 20:10:35,451 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,451 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-08 20:10:35,451 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 1
+2023-07-08 20:10:35,451 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,451 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-08 20:10:35,452 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,452 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-08 20:10:35,452 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 2
+2023-07-08 20:10:35,452 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,452 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-08 20:10:35,452 INFO    HandlerThread:67707 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 20:10:35,452 DEBUG   SystemMonitor:67707 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 20:10:35,452 DEBUG   SystemMonitor:67707 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 20:10:35,452 INFO    HandlerThread:67707 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 20:10:35,452 INFO    HandlerThread:67707 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 20:10:35,474 INFO    HandlerThread:67707 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 20:10:35,474 INFO    HandlerThread:67707 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 20:10:35,474 INFO    HandlerThread:67707 [interfaces.py:finish():202] Joined network monitor
+2023-07-08 20:10:35,474 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,474 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-08 20:10:35,474 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 3
+2023-07-08 20:10:35,474 DEBUG   SenderThread:67707 [sender.py:send():369] send: stats
+2023-07-08 20:10:35,474 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,474 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-08 20:10:35,474 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,474 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-08 20:10:35,474 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 4
+2023-07-08 20:10:35,474 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,474 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-08 20:10:35,475 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 5
+2023-07-08 20:10:35,475 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,475 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-08 20:10:35,475 DEBUG   SenderThread:67707 [sender.py:send():369] send: summary
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 20:10:35,475 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 6
+2023-07-08 20:10:35,475 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,475 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-08 20:10:35,475 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,475 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-08 20:10:35,477 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 20:10:35,529 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-summary.json
+2023-07-08 20:10:35,681 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 7
+2023-07-08 20:10:35,682 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,682 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-08 20:10:35,682 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,682 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-08 20:10:35,921 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 8
+2023-07-08 20:10:35,921 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,921 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-08 20:10:35,922 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [job_builder.py:build():259] run is notebook based run
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [job_builder.py:build():264] is repo sourced job
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 9
+2023-07-08 20:10:35,922 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:35,922 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-08 20:10:35,922 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-08 20:10:35,922 INFO    SenderThread:67707 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-08 20:10:36,410 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 20:10:36,529 INFO    Thread-73 :67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:36,530 INFO    SenderThread:67707 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/config.yaml
+2023-07-08 20:10:36,530 INFO    SenderThread:67707 [dir_watcher.py:finish():389] scan: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files
+2023-07-08 20:10:36,530 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-metadata.json wandb-metadata.json
+2023-07-08 20:10:36,530 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-summary.json wandb-summary.json
+2023-07-08 20:10:36,530 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/requirements.txt requirements.txt
+2023-07-08 20:10:36,531 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log output.log
+2023-07-08 20:10:36,532 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/config.yaml config.yaml
+2023-07-08 20:10:36,532 INFO    SenderThread:67707 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/conda-environment.yaml conda-environment.yaml
+2023-07-08 20:10:36,532 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 10
+2023-07-08 20:10:36,532 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 20:10:36,532 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:36,533 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-08 20:10:36,534 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:36,535 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-08 20:10:36,535 INFO    SenderThread:67707 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 20:10:37,086 INFO    wandb-upload_1:67707 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/requirements.txt
+2023-07-08 20:10:37,213 INFO    wandb-upload_0:67707 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/wandb-summary.json
+2023-07-08 20:10:37,267 INFO    wandb-upload_2:67707 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/output.log
+2023-07-08 20:10:37,272 INFO    wandb-upload_4:67707 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/conda-environment.yaml
+2023-07-08 20:10:37,284 INFO    wandb-upload_3:67707 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/files/config.yaml
+2023-07-08 20:10:37,410 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 20:10:37,411 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 20:10:37,484 INFO    Thread-72 (_thread_body):67707 [sender.py:transition_state():602] send defer: 11
+2023-07-08 20:10:37,485 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:37,485 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-08 20:10:37,486 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:37,486 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-08 20:10:37,486 INFO    SenderThread:67707 [file_pusher.py:join():164] waiting for file pusher
+2023-07-08 20:10:37,486 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 12
+2023-07-08 20:10:37,486 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:37,486 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-08 20:10:37,486 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:37,486 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-08 20:10:38,064 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 13
+2023-07-08 20:10:38,064 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:38,065 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-08 20:10:38,065 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:38,065 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-08 20:10:38,065 INFO    SenderThread:67707 [sender.py:transition_state():602] send defer: 14
+2023-07-08 20:10:38,065 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 20:10:38,066 INFO    HandlerThread:67707 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-08 20:10:38,066 DEBUG   SenderThread:67707 [sender.py:send():369] send: final
+2023-07-08 20:10:38,066 DEBUG   SenderThread:67707 [sender.py:send():369] send: footer
+2023-07-08 20:10:38,066 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: defer
+2023-07-08 20:10:38,066 INFO    SenderThread:67707 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-08 20:10:38,068 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 20:10:38,069 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 20:10:38,070 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: server_info
+2023-07-08 20:10:38,070 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-08 20:10:38,070 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-08 20:10:38,070 DEBUG   SenderThread:67707 [sender.py:send_request():396] send_request: server_info
+2023-07-08 20:10:38,380 DEBUG   HandlerThread:67707 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-08 20:10:38,380 INFO    HandlerThread:67707 [handler.py:finish():854] shutting down handler
+2023-07-08 20:10:39,070 INFO    WriterThread:67707 [datastore.py:close():298] close: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_200900-v18alujt/run-v18alujt.wandb
+2023-07-08 20:10:39,379 INFO    SenderThread:67707 [sender.py:finish():1526] shutting down sender
+2023-07-08 20:10:39,379 INFO    SenderThread:67707 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 20:10:39,379 INFO    SenderThread:67707 [file_pusher.py:join():164] waiting for file pusher

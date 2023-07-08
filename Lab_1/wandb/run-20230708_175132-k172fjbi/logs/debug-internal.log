@@ -1,0 +1,290 @@
+2023-07-08 17:51:33,035 INFO    StreamThr :37423 [internal.py:wandb_internal():86] W&B internal server running at pid: 37423, started at: 2023-07-08 17:51:33.035366
+2023-07-08 17:51:33,035 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status
+2023-07-08 17:51:33,036 INFO    WriterThread:37423 [datastore.py:open_for_write():85] open: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/run-k172fjbi.wandb
+2023-07-08 17:51:33,036 DEBUG   SenderThread:37423 [sender.py:send():369] send: header
+2023-07-08 17:51:33,036 DEBUG   SenderThread:37423 [sender.py:send():369] send: run
+2023-07-08 17:51:33,464 INFO    SenderThread:37423 [dir_watcher.py:__init__():211] watching files in: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files
+2023-07-08 17:51:33,464 INFO    SenderThread:37423 [sender.py:_start_run_threads():1100] run started: k172fjbi with start time 1688831492.145763
+2023-07-08 17:51:33,465 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:33,465 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:33,466 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: check_version
+2023-07-08 17:51:33,466 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: check_version
+2023-07-08 17:51:33,581 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: run_start
+2023-07-08 17:51:33,581 DEBUG   HandlerThread:37423 [system_info.py:__init__():31] System info init
+2023-07-08 17:51:33,581 DEBUG   HandlerThread:37423 [system_info.py:__init__():46] System info init done
+2023-07-08 17:51:33,581 INFO    HandlerThread:37423 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 17:51:33,581 INFO    SystemMonitor:37423 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 17:51:33,581 INFO    HandlerThread:37423 [system_monitor.py:probe():201] Collecting system info
+2023-07-08 17:51:33,581 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 17:51:33,582 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 17:51:33,582 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 17:51:33,582 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 17:51:33,582 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started network monitoring
+2023-07-08 17:51:33,585 DEBUG   HandlerThread:37423 [system_info.py:probe():195] Probing system
+2023-07-08 17:51:33,585 DEBUG   HandlerThread:37423 [system_info.py:_probe_git():180] Probing git
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_info.py:_probe_git():188] Probing git done
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_info.py:probe():240] Probing system done
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.11.4', 'heartbeatAt': '2023-07-08T15:51:33.585187', 'startedAt': '2023-07-08T15:51:32.144097', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/MagriniGabriele/Lab_DLA.git', 'commit': '0fc2a189d95790551a28ffe45fe35ed1d3ce4496'}, 'email': 'magrinigab@gmail.com', 'root': '/home/magro/Desktop/Lab_DLA', 'host': 'Hyrule', 'username': 'magro', 'executable': '/home/magro/miniconda3/envs/lab_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 4.51325, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.313, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.297, 'min': 800.0, 'max': 5300.0}, {'current': 5.299, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 5.299, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.294, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 4.188, 'min': 800.0, 'max': 4200.0}, {'current': 4.173, 'min': 800.0, 'max': 4200.0}, {'current': 4.199, 'min': 800.0, 'max': 4200.0}, {'current': 4.181, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 4.175, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}], 'disk': {'total': 915.3232879638672, 'used': 50.64332580566406}, 'gpu': 'NVIDIA Graphics Device', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA Graphics Device', 'memory_total': 12878610432}], 'memory': {'total': 31.153095245361328}}
+2023-07-08 17:51:33,587 INFO    HandlerThread:37423 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-08 17:51:33,587 INFO    HandlerThread:37423 [system_monitor.py:probe():214] Publishing system info
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-08 17:51:33,587 DEBUG   HandlerThread:37423 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-08 17:51:34,464 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:34,464 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/requirements.txt
+2023-07-08 17:51:34,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/conda-environment.yaml
+2023-07-08 17:51:34,575 DEBUG   HandlerThread:37423 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-08 17:51:34,576 INFO    HandlerThread:37423 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-08 17:51:34,576 DEBUG   SenderThread:37423 [sender.py:send():369] send: files
+2023-07-08 17:51:34,576 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-08 17:51:34,580 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:51:34,580 DEBUG   SenderThread:37423 [sender.py:send():369] send: telemetry
+2023-07-08 17:51:34,580 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:51:35,072 INFO    wandb-upload_0:37423 [upload_job.py:push():133] Uploaded file /tmp/tmpk4ymarqpwandb/ki2kfqgq-wandb-metadata.json
+2023-07-08 17:51:35,464 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/conda-environment.yaml
+2023-07-08 17:51:35,464 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:35,464 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-metadata.json
+2023-07-08 17:51:37,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:37,521 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:37,522 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:37,522 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:37,522 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:38,060 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:38,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:39,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:40,442 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:40,442 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:40,442 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:40,442 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:40,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:41,465 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:43,209 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:43,406 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:43,406 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:43,406 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:43,406 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:43,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:43,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:45,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:46,365 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:46,365 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:46,365 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:46,365 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:46,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:47,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:48,219 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:49,341 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:49,342 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:49,342 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:49,342 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:49,466 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:49,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:49,580 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:51:49,580 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:51:51,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:52,314 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:52,314 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:52,314 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:52,314 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:52,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:53,283 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:53,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:55,293 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:55,293 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:55,293 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:55,294 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:55,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:55,467 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:57,468 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:51:58,249 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:58,249 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:58,249 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:58,249 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:58,468 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:51:58,599 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:59,468 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:01,228 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:01,228 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:01,229 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:01,229 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:01,468 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:01,468 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:03,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:03,657 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:52:04,193 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:04,194 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:04,194 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:04,194 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:04,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:04,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/config.yaml
+2023-07-08 17:52:04,580 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:52:04,580 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:52:05,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:07,171 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:07,172 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:07,172 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:07,172 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:07,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:07,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:08,883 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:52:09,469 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:10,149 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:10,150 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:10,150 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:10,150 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:10,470 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:11,470 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:13,113 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:13,114 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:13,114 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:13,114 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:13,470 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:13,470 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:13,888 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:52:15,470 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:16,091 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:16,092 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:16,092 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:16,092 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:16,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:17,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:18,962 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:52:19,073 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:52:19,074 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:52:19,074 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:52:19,074 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:19,074 DEBUG   SenderThread:37423 [sender.py:send():369] send: telemetry
+2023-07-08 17:52:19,074 DEBUG   SenderThread:37423 [sender.py:send():369] send: exit
+2023-07-08 17:52:19,074 INFO    SenderThread:37423 [sender.py:send_exit():574] handling exit code: 0
+2023-07-08 17:52:19,074 INFO    SenderThread:37423 [sender.py:send_exit():576] handling runtime: 45
+2023-07-08 17:52:19,074 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:19,075 INFO    SenderThread:37423 [sender.py:send_exit():582] send defer
+2023-07-08 17:52:19,075 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-08 17:52:19,075 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,075 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-08 17:52:19,075 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 1
+2023-07-08 17:52:19,075 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-08 17:52:19,075 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,075 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-08 17:52:19,075 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 2
+2023-07-08 17:52:19,075 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 17:52:19,075 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 17:52:19,075 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 17:52:19,075 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 17:52:19,075 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 17:52:19,098 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 17:52:19,099 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 17:52:19,099 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined network monitor
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 3
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send():369] send: stats
+2023-07-08 17:52:19,099 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,099 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 4
+2023-07-08 17:52:19,099 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,099 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 5
+2023-07-08 17:52:19,099 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,099 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send():369] send: summary
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:52:19,099 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,099 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-08 17:52:19,100 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 6
+2023-07-08 17:52:19,100 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,100 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-08 17:52:19,100 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,100 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-08 17:52:19,101 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:52:19,286 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 7
+2023-07-08 17:52:19,286 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:19,286 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-08 17:52:19,286 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:19,286 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-08 17:52:19,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:19,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:19,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/config.yaml
+2023-07-08 17:52:20,076 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 8
+2023-07-08 17:52:20,791 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:52:20,791 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:20,791 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-08 17:52:20,791 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [job_builder.py:build():259] run is notebook based run
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [job_builder.py:build():264] is repo sourced job
+2023-07-08 17:52:20,791 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 9
+2023-07-08 17:52:20,791 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:20,791 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-08 17:52:20,792 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:20,792 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-08 17:52:20,792 INFO    SenderThread:37423 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-08 17:52:21,076 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:52:21,471 INFO    Thread-25 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:21,472 INFO    SenderThread:37423 [dir_watcher.py:finish():389] scan: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files
+2023-07-08 17:52:21,472 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-metadata.json wandb-metadata.json
+2023-07-08 17:52:21,472 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json wandb-summary.json
+2023-07-08 17:52:21,472 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/requirements.txt requirements.txt
+2023-07-08 17:52:21,472 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log output.log
+2023-07-08 17:52:21,473 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/config.yaml config.yaml
+2023-07-08 17:52:21,474 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/conda-environment.yaml conda-environment.yaml
+2023-07-08 17:52:21,474 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 10
+2023-07-08 17:52:21,474 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:52:21,474 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:21,475 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-08 17:52:21,476 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:21,476 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-08 17:52:21,476 INFO    SenderThread:37423 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 17:52:21,908 INFO    wandb-upload_1:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/wandb-summary.json
+2023-07-08 17:52:21,994 INFO    wandb-upload_0:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/requirements.txt
+2023-07-08 17:52:22,077 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:52:22,078 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:52:22,086 INFO    wandb-upload_2:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/output.log
+2023-07-08 17:52:22,087 INFO    wandb-upload_3:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/config.yaml
+2023-07-08 17:52:22,092 INFO    wandb-upload_4:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/files/conda-environment.yaml
+2023-07-08 17:52:22,292 INFO    Thread-24 (_thread_body):37423 [sender.py:transition_state():602] send defer: 11
+2023-07-08 17:52:22,293 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:22,293 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-08 17:52:22,294 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:22,294 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-08 17:52:22,294 INFO    SenderThread:37423 [file_pusher.py:join():164] waiting for file pusher
+2023-07-08 17:52:22,294 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 12
+2023-07-08 17:52:22,294 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:22,294 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-08 17:52:22,295 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:22,295 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-08 17:52:22,489 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 13
+2023-07-08 17:52:22,489 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:22,489 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-08 17:52:22,490 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:22,490 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-08 17:52:22,490 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 14
+2023-07-08 17:52:22,490 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:52:22,490 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-08 17:52:22,491 DEBUG   SenderThread:37423 [sender.py:send():369] send: final
+2023-07-08 17:52:22,491 DEBUG   SenderThread:37423 [sender.py:send():369] send: footer
+2023-07-08 17:52:22,491 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:52:22,491 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-08 17:52:22,492 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:52:22,493 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:52:22,494 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: server_info
+2023-07-08 17:52:22,494 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-08 17:52:22,494 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-08 17:52:22,495 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: server_info
+2023-07-08 17:52:22,824 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-08 17:52:22,824 INFO    HandlerThread:37423 [handler.py:finish():854] shutting down handler
+2023-07-08 17:52:23,495 INFO    WriterThread:37423 [datastore.py:close():298] close: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_175132-k172fjbi/run-k172fjbi.wandb
+2023-07-08 17:52:23,824 INFO    SenderThread:37423 [sender.py:finish():1526] shutting down sender
+2023-07-08 17:52:23,824 INFO    SenderThread:37423 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 17:52:23,824 INFO    SenderThread:37423 [file_pusher.py:join():164] waiting for file pusher

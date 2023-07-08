@@ -1,0 +1,55 @@
+2023-07-08 18:08:12,535 INFO    StreamThr :48702 [internal.py:wandb_internal():86] W&B internal server running at pid: 48702, started at: 2023-07-08 18:08:12.534825
+2023-07-08 18:08:12,535 DEBUG   HandlerThread:48702 [handler.py:handle_request():144] handle_request: status
+2023-07-08 18:08:12,535 INFO    WriterThread:48702 [datastore.py:open_for_write():85] open: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/run-ijegned5.wandb
+2023-07-08 18:08:12,536 DEBUG   SenderThread:48702 [sender.py:send():369] send: header
+2023-07-08 18:08:12,537 DEBUG   SenderThread:48702 [sender.py:send():369] send: run
+2023-07-08 18:08:12,943 INFO    SenderThread:48702 [dir_watcher.py:__init__():211] watching files in: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files
+2023-07-08 18:08:12,943 INFO    SenderThread:48702 [sender.py:_start_run_threads():1100] run started: ijegned5 with start time 1688832492.534802
+2023-07-08 18:08:12,949 DEBUG   SenderThread:48702 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 18:08:12,949 INFO    SenderThread:48702 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 18:08:12,955 DEBUG   HandlerThread:48702 [handler.py:handle_request():144] handle_request: check_version
+2023-07-08 18:08:12,956 DEBUG   SenderThread:48702 [sender.py:send_request():396] send_request: check_version
+2023-07-08 18:08:13,077 DEBUG   HandlerThread:48702 [handler.py:handle_request():144] handle_request: run_start
+2023-07-08 18:08:13,078 DEBUG   HandlerThread:48702 [system_info.py:__init__():31] System info init
+2023-07-08 18:08:13,078 DEBUG   HandlerThread:48702 [system_info.py:__init__():46] System info init done
+2023-07-08 18:08:13,078 INFO    HandlerThread:48702 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 18:08:13,078 INFO    SystemMonitor:48702 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 18:08:13,078 INFO    HandlerThread:48702 [system_monitor.py:probe():201] Collecting system info
+2023-07-08 18:08:13,078 INFO    SystemMonitor:48702 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 18:08:13,078 INFO    SystemMonitor:48702 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 18:08:13,078 INFO    SystemMonitor:48702 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 18:08:13,079 INFO    SystemMonitor:48702 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 18:08:13,079 INFO    SystemMonitor:48702 [interfaces.py:start():190] Started network monitoring
+2023-07-08 18:08:13,081 DEBUG   HandlerThread:48702 [system_info.py:probe():195] Probing system
+2023-07-08 18:08:13,082 DEBUG   HandlerThread:48702 [system_info.py:_probe_git():180] Probing git
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_info.py:_probe_git():188] Probing git done
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_info.py:probe():240] Probing system done
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.11.4', 'heartbeatAt': '2023-07-08T16:08:13.081858', 'startedAt': '2023-07-08T16:08:12.532181', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/MagriniGabriele/Lab_DLA.git', 'commit': '0fc2a189d95790551a28ffe45fe35ed1d3ce4496'}, 'email': 'magrinigab@gmail.com', 'root': '/home/magro/Desktop/Lab_DLA', 'host': 'Hyrule', 'username': 'magro', 'executable': '/home/magro/miniconda3/envs/lab_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 4.387249999999999, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 5.3, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 4.2, 'min': 800.0, 'max': 4200.0}, {'current': 4.002, 'min': 800.0, 'max': 4200.0}, {'current': 4.185, 'min': 800.0, 'max': 4200.0}, {'current': 4.197, 'min': 800.0, 'max': 4200.0}, {'current': 4.176, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 4.198, 'min': 800.0, 'max': 4200.0}, {'current': 3.536, 'min': 800.0, 'max': 4200.0}], 'disk': {'total': 915.3232879638672, 'used': 50.983306884765625}, 'gpu': 'NVIDIA Graphics Device', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA Graphics Device', 'memory_total': 12878610432}], 'memory': {'total': 31.153095245361328}}
+2023-07-08 18:08:13,084 INFO    HandlerThread:48702 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-08 18:08:13,084 INFO    HandlerThread:48702 [system_monitor.py:probe():214] Publishing system info
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-08 18:08:13,084 DEBUG   HandlerThread:48702 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-08 18:08:13,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/conda-environment.yaml
+2023-07-08 18:08:13,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/requirements.txt
+2023-07-08 18:08:13,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/wandb-summary.json
+2023-07-08 18:08:14,089 DEBUG   HandlerThread:48702 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-08 18:08:14,090 INFO    HandlerThread:48702 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-08 18:08:14,090 DEBUG   SenderThread:48702 [sender.py:send():369] send: files
+2023-07-08 18:08:14,090 INFO    SenderThread:48702 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-08 18:08:14,093 DEBUG   HandlerThread:48702 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 18:08:14,094 DEBUG   SenderThread:48702 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 18:08:14,291 DEBUG   SenderThread:48702 [sender.py:send():369] send: telemetry
+2023-07-08 18:08:14,612 INFO    wandb-upload_0:48702 [upload_job.py:push():133] Uploaded file /tmp/tmpzz9jkonswandb/t1kwed6c-wandb-metadata.json
+2023-07-08 18:08:14,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/conda-environment.yaml
+2023-07-08 18:08:14,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/output.log
+2023-07-08 18:08:14,943 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/wandb-metadata.json
+2023-07-08 18:08:15,079 INFO    memory    :48702 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2023-07-08 18:08:15,080 INFO    cpu       :48702 [interfaces.py:monitor():140] Process cpu has exited.
+2023-07-08 18:08:15,080 DEBUG   SystemMonitor:48702 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 18:08:15,080 DEBUG   SystemMonitor:48702 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 18:08:15,080 DEBUG   SystemMonitor:48702 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 18:08:15,080 DEBUG   SenderThread:48702 [sender.py:send():369] send: stats
+2023-07-08 18:08:16,944 INFO    Thread-25 :48702 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_180812-ijegned5/files/output.log
+2023-07-08 18:08:17,079 INFO    MainThread:48702 [internal.py:handle_exit():76] Internal process exited
+2023-07-08 18:08:17,079 INFO    MainThread:48702 [internal.py:handle_exit():76] Internal process exited
