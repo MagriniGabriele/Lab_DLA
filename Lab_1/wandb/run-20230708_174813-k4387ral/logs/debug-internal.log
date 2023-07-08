@@ -1,0 +1,397 @@
+2023-07-08 17:48:13,648 INFO    StreamThr :37423 [internal.py:wandb_internal():86] W&B internal server running at pid: 37423, started at: 2023-07-08 17:48:13.648226
+2023-07-08 17:48:13,648 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status
+2023-07-08 17:48:13,649 INFO    WriterThread:37423 [datastore.py:open_for_write():85] open: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/run-k4387ral.wandb
+2023-07-08 17:48:13,650 DEBUG   SenderThread:37423 [sender.py:send():369] send: header
+2023-07-08 17:48:13,650 DEBUG   SenderThread:37423 [sender.py:send():369] send: run
+2023-07-08 17:48:14,059 INFO    SenderThread:37423 [dir_watcher.py:__init__():211] watching files in: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files
+2023-07-08 17:48:14,059 INFO    SenderThread:37423 [sender.py:_start_run_threads():1100] run started: k4387ral with start time 1688831293.647218
+2023-07-08 17:48:14,059 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:48:14,059 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:48:14,061 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: check_version
+2023-07-08 17:48:14,061 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: check_version
+2023-07-08 17:48:15,059 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:48:15,239 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: run_start
+2023-07-08 17:48:15,243 DEBUG   HandlerThread:37423 [system_info.py:__init__():31] System info init
+2023-07-08 17:48:15,243 DEBUG   HandlerThread:37423 [system_info.py:__init__():46] System info init done
+2023-07-08 17:48:15,243 INFO    HandlerThread:37423 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 17:48:15,243 INFO    SystemMonitor:37423 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 17:48:15,243 INFO    HandlerThread:37423 [system_monitor.py:probe():201] Collecting system info
+2023-07-08 17:48:15,243 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 17:48:15,244 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 17:48:15,244 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 17:48:15,244 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 17:48:15,244 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started network monitoring
+2023-07-08 17:48:15,256 DEBUG   HandlerThread:37423 [system_info.py:probe():195] Probing system
+2023-07-08 17:48:15,257 DEBUG   HandlerThread:37423 [system_info.py:_probe_git():180] Probing git
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_info.py:_probe_git():188] Probing git done
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_info.py:probe():240] Probing system done
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-46-generic-x86_64-with-glibc2.35', 'python': '3.11.4', 'heartbeatAt': '2023-07-08T15:48:15.256251', 'startedAt': '2023-07-08T15:48:13.645083', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/MagriniGabriele/Lab_DLA.git', 'commit': '0fc2a189d95790551a28ffe45fe35ed1d3ce4496'}, 'email': 'magrinigab@gmail.com', 'root': '/home/magro/Desktop/Lab_DLA', 'host': 'Hyrule', 'username': 'magro', 'executable': '/home/magro/miniconda3/envs/lab_env/bin/python', 'cpu_count': 16, 'cpu_count_logical': 24, 'cpu_freq': {'current': 4.604875000000001, 'min': 800.0, 'max': 4950.0}, 'cpu_freq_per_core': [{'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.299, 'min': 800.0, 'max': 5300.0}, {'current': 5.301, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 5.3, 'min': 800.0, 'max': 5400.0}, {'current': 3.4, 'min': 800.0, 'max': 5400.0}, {'current': 5.3, 'min': 800.0, 'max': 5400.0}, {'current': 5.299, 'min': 800.0, 'max': 5400.0}, {'current': 5.3, 'min': 800.0, 'max': 5300.0}, {'current': 3.4, 'min': 800.0, 'max': 5300.0}, {'current': 5.299, 'min': 800.0, 'max': 5300.0}, {'current': 5.293, 'min': 800.0, 'max': 5300.0}, {'current': 4.088, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 4.072, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 4.1, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}, {'current': 4.099, 'min': 800.0, 'max': 4200.0}, {'current': 3.4, 'min': 800.0, 'max': 4200.0}], 'disk': {'total': 915.3232879638672, 'used': 50.63656997680664}, 'gpu': 'NVIDIA Graphics Device', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA Graphics Device', 'memory_total': 12878610432}], 'memory': {'total': 31.153095245361328}}
+2023-07-08 17:48:15,259 INFO    HandlerThread:37423 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-08 17:48:15,259 INFO    HandlerThread:37423 [system_monitor.py:probe():214] Publishing system info
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-08 17:48:15,259 DEBUG   HandlerThread:37423 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-07-08 17:48:16,059 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/requirements.txt
+2023-07-08 17:48:16,060 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/conda-environment.yaml
+2023-07-08 17:48:16,249 DEBUG   HandlerThread:37423 [system_info.py:_save_conda():86] Saving conda packages done
+2023-07-08 17:48:16,249 INFO    HandlerThread:37423 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-08 17:48:16,250 DEBUG   SenderThread:37423 [sender.py:send():369] send: files
+2023-07-08 17:48:16,250 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-08 17:48:16,254 DEBUG   SenderThread:37423 [sender.py:send():369] send: telemetry
+2023-07-08 17:48:16,302 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:48:16,302 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: pause
+2023-07-08 17:48:16,302 INFO    HandlerThread:37423 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-08 17:48:16,302 INFO    HandlerThread:37423 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 17:48:16,302 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 17:48:16,302 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 17:48:16,302 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 17:48:16,302 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:48:16,302 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 17:48:16,303 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 17:48:16,327 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 17:48:16,327 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 17:48:16,327 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined network monitor
+2023-07-08 17:48:16,510 DEBUG   SenderThread:37423 [sender.py:send():369] send: stats
+2023-07-08 17:48:16,750 INFO    wandb-upload_0:37423 [upload_job.py:push():133] Uploaded file /tmp/tmp1e3idp7owandb/rucszvyv-wandb-metadata.json
+2023-07-08 17:48:17,059 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/conda-environment.yaml
+2023-07-08 17:48:17,059 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-metadata.json
+2023-07-08 17:48:19,511 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:24,512 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:29,512 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:31,254 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:48:31,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:48:35,408 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:40,409 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:45,415 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:46,068 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/config.yaml
+2023-07-08 17:48:46,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:48:46,256 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:48:51,409 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:48:56,410 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:01,254 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:49:01,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:49:01,416 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:06,416 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:11,417 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:16,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:49:16,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:49:17,417 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:22,418 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:27,419 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:31,254 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:49:31,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:49:33,406 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:38,407 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:43,407 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:46,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:49:46,256 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:49:48,414 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:53,415 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:49:58,416 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:01,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:50:01,256 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:50:04,406 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:09,407 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:14,408 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:16,254 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:50:16,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:50:19,413 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:24,414 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:25,802 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: resume
+2023-07-08 17:50:25,802 INFO    HandlerThread:37423 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-08 17:50:25,802 INFO    HandlerThread:37423 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 17:50:25,802 INFO    SystemMonitor:37423 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 17:50:25,803 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 17:50:25,803 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 17:50:25,803 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: pause
+2023-07-08 17:50:25,803 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 17:50:25,803 INFO    HandlerThread:37423 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-08 17:50:25,803 INFO    HandlerThread:37423 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 17:50:25,804 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 17:50:25,804 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 17:50:25,804 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 17:50:25,804 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 17:50:25,804 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 17:50:25,804 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 17:50:25,827 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 17:50:25,827 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 17:50:25,827 DEBUG   SenderThread:37423 [sender.py:send():369] send: stats
+2023-07-08 17:50:29,828 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:31,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:50:31,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:50:31,687 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: resume
+2023-07-08 17:50:31,687 INFO    HandlerThread:37423 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-08 17:50:31,687 INFO    HandlerThread:37423 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 17:50:31,687 INFO    SystemMonitor:37423 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 17:50:31,687 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 17:50:31,688 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 17:50:31,688 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 17:50:31,688 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 17:50:31,688 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started network monitoring
+2023-07-08 17:50:31,707 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: pause
+2023-07-08 17:50:31,708 INFO    HandlerThread:37423 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-08 17:50:31,708 INFO    HandlerThread:37423 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 17:50:31,708 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 17:50:31,708 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 17:50:31,708 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 17:50:31,708 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 17:50:31,708 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 17:50:31,728 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 17:50:31,729 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 17:50:31,729 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined network monitor
+2023-07-08 17:50:31,729 DEBUG   SenderThread:37423 [sender.py:send():369] send: stats
+2023-07-08 17:50:35,730 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:40,730 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:42,723 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: resume
+2023-07-08 17:50:42,723 INFO    HandlerThread:37423 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-08 17:50:42,723 INFO    HandlerThread:37423 [system_monitor.py:start():181] Starting system monitor
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started cpu monitoring
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started disk monitoring
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started gpu monitoring
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started memory monitoring
+2023-07-08 17:50:42,723 INFO    SystemMonitor:37423 [interfaces.py:start():190] Started network monitoring
+2023-07-08 17:50:43,102 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_created():272] file/dir created: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:45,102 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:45,773 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:45,774 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:50:45,774 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:50:45,774 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:50:45,774 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:50:46,102 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:50:46,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:50:46,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:50:47,102 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:48,774 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:50:48,774 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:50:48,774 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:50:48,774 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:50:49,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:50:49,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:50,779 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:51,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:51,718 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:50:51,718 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:50:51,718 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:50:51,718 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:50:52,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:50:53,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:54,709 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:50:54,710 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:50:54,710 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:50:54,710 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:50:55,103 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:50:55,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:55,785 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:50:57,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:50:57,737 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:50:57,738 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:50:57,738 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:50:57,738 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:50:58,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:50:59,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:00,683 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:00,684 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:00,684 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:00,684 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:00,981 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:01,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:01,104 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:01,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:51:01,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:51:03,105 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:03,659 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:03,660 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:03,660 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:03,660 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:04,105 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:05,105 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:06,016 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:06,627 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:06,627 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:06,628 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:06,628 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:07,105 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:07,105 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:09,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:09,671 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:09,671 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:09,671 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:09,671 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:10,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:11,081 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:11,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:12,697 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:12,697 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:12,697 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:12,697 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:13,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:13,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:15,106 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:15,779 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:15,779 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:15,779 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:15,779 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:16,105 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:16,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:16,255 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-08 17:51:16,255 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: stop_status
+2023-07-08 17:51:17,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:18,780 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:18,780 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:18,780 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:18,781 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:19,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:19,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:21,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:21,197 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:21,763 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:21,763 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:21,763 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:21,764 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:22,107 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:23,108 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:24,812 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:24,812 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:24,812 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:24,812 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:25,108 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:25,108 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:26,212 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:27,108 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:27,760 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-08 17:51:27,760 DEBUG   SenderThread:37423 [sender.py:send():369] send: history
+2023-07-08 17:51:27,760 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: summary_record
+2023-07-08 17:51:27,760 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:27,760 DEBUG   SenderThread:37423 [sender.py:send():369] send: telemetry
+2023-07-08 17:51:27,761 DEBUG   SenderThread:37423 [sender.py:send():369] send: exit
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:send_exit():574] handling exit code: 0
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:send_exit():576] handling runtime: 46
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:send_exit():582] send defer
+2023-07-08 17:51:27,761 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,761 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-08 17:51:27,761 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 1
+2023-07-08 17:51:27,761 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,761 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-08 17:51:27,761 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-07-08 17:51:27,761 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 2
+2023-07-08 17:51:27,761 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,761 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-08 17:51:27,761 INFO    HandlerThread:37423 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-08 17:51:27,761 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-08 17:51:27,762 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-08 17:51:27,762 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-08 17:51:27,762 DEBUG   SystemMonitor:37423 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-08 17:51:27,762 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined disk monitor
+2023-07-08 17:51:27,783 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-08 17:51:27,783 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined memory monitor
+2023-07-08 17:51:27,783 INFO    HandlerThread:37423 [interfaces.py:finish():202] Joined network monitor
+2023-07-08 17:51:27,783 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,783 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-07-08 17:51:27,783 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 3
+2023-07-08 17:51:27,783 DEBUG   SenderThread:37423 [sender.py:send():369] send: stats
+2023-07-08 17:51:27,783 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,783 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-08 17:51:27,784 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 4
+2023-07-08 17:51:27,784 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,784 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-08 17:51:27,784 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 5
+2023-07-08 17:51:27,784 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,784 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-08 17:51:27,784 DEBUG   SenderThread:37423 [sender.py:send():369] send: summary
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-08 17:51:27,784 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 6
+2023-07-08 17:51:27,784 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,784 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-08 17:51:27,784 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,784 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-07-08 17:51:27,785 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: status_report
+2023-07-08 17:51:27,994 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 7
+2023-07-08 17:51:27,994 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:27,994 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-08 17:51:27,995 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:27,995 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-07-08 17:51:28,109 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:28,109 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/config.yaml
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 8
+2023-07-08 17:51:28,734 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:28,734 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-08 17:51:28,734 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [job_builder.py:build():240] Attempting to build job artifact
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [job_builder.py:build():259] run is notebook based run
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [job_builder.py:build():264] is repo sourced job
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 9
+2023-07-08 17:51:28,734 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:28,734 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-08 17:51:28,734 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-07-08 17:51:28,734 INFO    SenderThread:37423 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-08 17:51:28,761 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:51:29,109 INFO    Thread-12 :37423 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():389] scan: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-metadata.json wandb-metadata.json
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json wandb-summary.json
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/requirements.txt requirements.txt
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log output.log
+2023-07-08 17:51:29,109 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/config.yaml config.yaml
+2023-07-08 17:51:29,110 INFO    SenderThread:37423 [dir_watcher.py:finish():403] scan save: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/conda-environment.yaml conda-environment.yaml
+2023-07-08 17:51:29,110 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 10
+2023-07-08 17:51:29,110 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:51:29,110 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:29,111 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-08 17:51:29,113 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:29,113 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-07-08 17:51:29,113 INFO    SenderThread:37423 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 17:51:29,534 INFO    wandb-upload_0:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/wandb-summary.json
+2023-07-08 17:51:29,686 INFO    wandb-upload_4:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/conda-environment.yaml
+2023-07-08 17:51:29,707 INFO    wandb-upload_3:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/config.yaml
+2023-07-08 17:51:29,730 INFO    wandb-upload_2:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/output.log
+2023-07-08 17:51:29,762 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:51:29,762 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:51:29,932 INFO    wandb-upload_1:37423 [upload_job.py:push():133] Uploaded file /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/files/requirements.txt
+2023-07-08 17:51:30,133 INFO    Thread-11 (_thread_body):37423 [sender.py:transition_state():602] send defer: 11
+2023-07-08 17:51:30,133 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:30,133 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-08 17:51:30,133 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:30,133 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-07-08 17:51:30,133 INFO    SenderThread:37423 [file_pusher.py:join():164] waiting for file pusher
+2023-07-08 17:51:30,133 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 12
+2023-07-08 17:51:30,133 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:30,133 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-08 17:51:30,133 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:30,133 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-07-08 17:51:30,722 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 13
+2023-07-08 17:51:30,723 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:30,723 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-08 17:51:30,723 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:30,723 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-07-08 17:51:30,723 INFO    SenderThread:37423 [sender.py:transition_state():602] send defer: 14
+2023-07-08 17:51:30,724 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: defer
+2023-07-08 17:51:30,724 INFO    HandlerThread:37423 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-08 17:51:30,724 DEBUG   SenderThread:37423 [sender.py:send():369] send: final
+2023-07-08 17:51:30,725 DEBUG   SenderThread:37423 [sender.py:send():369] send: footer
+2023-07-08 17:51:30,725 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: defer
+2023-07-08 17:51:30,725 INFO    SenderThread:37423 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-07-08 17:51:30,726 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-08 17:51:30,726 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: poll_exit
+2023-07-08 17:51:30,727 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: server_info
+2023-07-08 17:51:30,727 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-08 17:51:30,728 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-08 17:51:30,729 DEBUG   SenderThread:37423 [sender.py:send_request():396] send_request: server_info
+2023-07-08 17:51:31,034 DEBUG   HandlerThread:37423 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-08 17:51:31,034 INFO    HandlerThread:37423 [handler.py:finish():854] shutting down handler
+2023-07-08 17:51:31,728 INFO    WriterThread:37423 [datastore.py:close():298] close: /home/magro/Desktop/Lab_DLA/Lab_1/wandb/run-20230708_174813-k4387ral/run-k4387ral.wandb
+2023-07-08 17:51:32,034 INFO    SenderThread:37423 [sender.py:finish():1526] shutting down sender
+2023-07-08 17:51:32,034 INFO    SenderThread:37423 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-08 17:51:32,034 INFO    SenderThread:37423 [file_pusher.py:join():164] waiting for file pusher
